@@ -1,0 +1,72 @@
+2022-07-07 16:27:49.692  INFO 18584 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 18584 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:27:49.694  INFO 18584 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:27:50.791  WARN 18584 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:27:51.912  INFO 18584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:27:54.604  INFO 18584 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:27:54.751  INFO 18584 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.483 seconds (JVM running for 6.498)
+2022-07-07 16:27:55.024  INFO 18584 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:27:55.025  INFO 18584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:32:03.549  INFO 1872 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 1872 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:32:03.551  INFO 1872 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:32:04.708  WARN 1872 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:32:05.691  INFO 1872 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:32:08.250  INFO 1872 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:32:08.409  INFO 1872 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.412 seconds (JVM running for 6.509)
+2022-07-07 16:32:08.691  INFO 1872 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:32:08.692  INFO 1872 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:32:29.739  INFO 18560 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 18560 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:32:29.740  INFO 18560 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:32:30.988  WARN 18560 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:32:31.945  INFO 18560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:32:34.403  INFO 18560 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:32:34.574  INFO 18560 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.277 seconds (JVM running for 6.4)
+2022-07-07 16:32:34.915  INFO 18560 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:32:34.916  INFO 18560 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:33:30.297  INFO 13996 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 13996 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:33:30.298  INFO 13996 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:33:31.535  WARN 13996 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:33:32.457  INFO 13996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:33:35.084  INFO 13996 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:33:35.229  INFO 13996 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.374 seconds (JVM running for 6.424)
+2022-07-07 16:33:35.503  INFO 13996 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:33:35.505  INFO 13996 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:37:32.525  INFO 10096 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 10096 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:37:32.527  INFO 10096 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:37:33.619  WARN 10096 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:37:34.549  INFO 10096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:37:37.104  INFO 10096 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:37:37.248  INFO 10096 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.16 seconds (JVM running for 6.211)
+2022-07-07 16:37:37.510  INFO 10096 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:37:37.511  INFO 10096 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:38:39.976  INFO 18860 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 18860 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:38:39.977  INFO 18860 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:38:41.073  WARN 18860 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:38:42.109  INFO 18860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:38:45.095  INFO 18860 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:38:45.260  INFO 18860 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.723 seconds (JVM running for 6.838)
+2022-07-07 16:38:45.550  INFO 18860 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:38:45.551  INFO 18860 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:39:15.426  INFO 14948 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 14948 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:39:15.427  INFO 14948 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:39:16.520  WARN 14948 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:39:17.462  INFO 14948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:39:20.149  INFO 14948 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:39:20.342  INFO 14948 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 5.381 seconds (JVM running for 6.543)
+2022-07-07 16:39:20.627  INFO 14948 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:39:20.629  INFO 14948 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:41:32.698  INFO 18188 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 18188 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:41:32.699  INFO 18188 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:41:34.145  WARN 18188 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:41:35.351  INFO 18188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:41:38.530  INFO 18188 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:41:38.739  INFO 18188 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 6.621 seconds (JVM running for 7.959)
+2022-07-07 16:41:39.041  INFO 18188 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:41:39.041  INFO 18188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:44:11.767  INFO 14584 --- [main] com.yzh.common.CommonApplicationTests    : Starting CommonApplicationTests on Hui with PID 14584 (started by lenovo in E:\1java黑马\04 Spring\MyCode\sofademo-parent\common)
+2022-07-07 16:44:11.768  INFO 14584 --- [main] com.yzh.common.CommonApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:44:13.077  WARN 14584 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.common]' package. Please check your configuration.
+2022-07-07 16:44:14.166  INFO 14584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:44:17.423  INFO 14584 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:44:17.596  INFO 14584 --- [main] com.yzh.common.CommonApplicationTests    : Started CommonApplicationTests in 6.371 seconds (JVM running for 7.805)
+2022-07-07 16:44:17.947  INFO 14584 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:44:17.949  INFO 14584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

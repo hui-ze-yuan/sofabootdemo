@@ -1,10 +1,10 @@
-package com.example.sofademocommon;
+package com.yzh.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SofademoCommonApplicationTests {
+class CommonApplicationTests {
 
     @Test
     void contextLoads() {

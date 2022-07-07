@@ -3,9 +3,10 @@ package com.yzh.serviceconsumer.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
-import com.example.sofademocommon.Result;
-import com.example.sofademocommon.Service.UserService;
-import com.example.sofademocommon.entity.User;
+
+import com.yzh.common.Result;
+import com.yzh.common.Service.UserService;
+import com.yzh.common.entity.User;
 import com.yzh.serviceconsumer.service.Impl.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

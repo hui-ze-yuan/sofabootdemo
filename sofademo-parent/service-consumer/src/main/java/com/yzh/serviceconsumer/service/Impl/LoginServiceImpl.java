@@ -2,12 +2,11 @@ package com.yzh.serviceconsumer.service.Impl;
 
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
-import com.alipay.sofa.runtime.api.annotation.SofaService;
-import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
-import com.example.sofademocommon.Result;
-import com.example.sofademocommon.Service.LoginService;
-import com.example.sofademocommon.Service.UserService;
-import com.example.sofademocommon.entity.User;
+
+import com.yzh.common.Result;
+import com.yzh.common.Service.LoginService;
+import com.yzh.common.Service.UserService;
+import com.yzh.common.entity.User;
 import com.yzh.serviceprovider.utils.Md5Util;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;

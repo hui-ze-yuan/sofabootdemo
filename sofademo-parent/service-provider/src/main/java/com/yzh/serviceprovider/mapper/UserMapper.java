@@ -1,7 +1,7 @@
 package com.yzh.serviceprovider.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.sofademocommon.entity.User;
+import com.yzh.common.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 

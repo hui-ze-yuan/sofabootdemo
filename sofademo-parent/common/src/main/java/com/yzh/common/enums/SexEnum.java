@@ -1,4 +1,4 @@
-package com.example.sofademocommon.entity.enums;
+package com.yzh.common.enums;
 
 
 import lombok.AllArgsConstructor;

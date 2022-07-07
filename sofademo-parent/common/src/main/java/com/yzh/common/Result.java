@@ -1,4 +1,4 @@
-package com.example.sofademocommon;
+package com.yzh.common;
 
 public class Result<T> {
     private String code;

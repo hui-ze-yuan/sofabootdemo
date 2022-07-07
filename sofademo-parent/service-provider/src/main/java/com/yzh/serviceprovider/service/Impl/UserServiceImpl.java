@@ -4,10 +4,11 @@ import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.sofademocommon.Result;
-import com.example.sofademocommon.Service.UserService;
-import com.example.sofademocommon.entity.User;
+import com.yzh.common.Result;
+import com.yzh.common.Service.UserService;
+import com.yzh.common.entity.User;
 import com.yzh.serviceprovider.mapper.UserMapper;
 import com.yzh.serviceprovider.utils.Md5Util;
 import lombok.extern.slf4j.Slf4j;

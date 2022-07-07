@@ -1,6 +1,8 @@
-package com.example.sofademocommon.Service;
+package com.yzh.common.Service;
 
-import com.example.sofademocommon.entity.User;
+
+
+import com.yzh.common.entity.User;
 
 import java.util.List;
 

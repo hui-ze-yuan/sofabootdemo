@@ -1,0 +1,16 @@
+2022-07-07 16:04:46.877  INFO 18236 --- [main] c.y.s.ServiceConsumerApplicationTests    : Starting ServiceConsumerApplicationTests on Hui with PID 18236 (started by lenovo in E:\1javaé»‘é©¬\04 Spring\MyCode\sofademo-parent\service-consumer)
+2022-07-07 16:04:46.878  INFO 18236 --- [main] c.y.s.ServiceConsumerApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:04:48.640  WARN 18236 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.serviceconsumer]' package. Please check your configuration.
+2022-07-07 16:05:00.033  INFO 18236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:05:02.917  INFO 18236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:05:03.057  INFO 18236 --- [main] c.y.s.ServiceConsumerApplicationTests    : Started ServiceConsumerApplicationTests in 16.862 seconds (JVM running for 18.205)
+2022-07-07 16:05:03.622  INFO 18236 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:05:03.623  INFO 18236 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:44:46.828  INFO 15348 --- [main] c.y.s.ServiceConsumerApplicationTests    : Starting ServiceConsumerApplicationTests on Hui with PID 15348 (started by lenovo in E:\1javaºÚÂí\04 Spring\MyCode\sofademo-parent\service-consumer)
+2022-07-07 16:44:46.829  INFO 15348 --- [main] c.y.s.ServiceConsumerApplicationTests    : No active profile set, falling back to default profiles: default
+2022-07-07 16:44:47.949  WARN 15348 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yzh.serviceconsumer]' package. Please check your configuration.
+2022-07-07 16:44:58.478  INFO 15348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-07 16:45:00.915  INFO 15348 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-07-07 16:45:01.031  INFO 15348 --- [main] c.y.s.ServiceConsumerApplicationTests    : Started ServiceConsumerApplicationTests in 14.749 seconds (JVM running for 15.841)
+2022-07-07 16:45:01.282  INFO 15348 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-07 16:45:01.283  INFO 15348 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
