@@ -1,30 +1,25 @@
-#spring:
-#  application:
-#    name: sofa-demo-provider
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://172.16.31.210:31001/sofaboot?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
-#    username: dev
-#    password: Aa123456
-#    type: com.alibaba.druid.pool.DruidDataSource
 server:
-  port: 8081
+  port: 8082
 
 com:
   alipay:
     sofa:
       rpc:
         registry-address: nacos://172.16.31.210:31256/public
-        bolt-port: 12221
-
+        bolt-port: 12202
+#开启sql语句日志
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+management:
+  endpoint:
+    health:
+      show-details: always
 
 spring:
   application:
-    name: sofa-demo-provider
+    name: sofa-demo-consumer
   # 配置数据源信息
   datasource:
     dynamic:

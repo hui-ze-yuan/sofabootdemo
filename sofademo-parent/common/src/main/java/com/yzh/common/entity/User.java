@@ -7,12 +7,13 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@TableName("user")
+@TableName("user1")
 public class User {
     //主键 id 自动递增
     @TableId(type = IdType.AUTO)

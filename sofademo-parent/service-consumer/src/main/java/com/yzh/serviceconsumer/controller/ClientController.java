@@ -5,6 +5,7 @@ import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 
 import com.yzh.common.Result;
+import com.yzh.common.Service.BookService;
 import com.yzh.common.Service.UserService;
 import com.yzh.common.entity.User;
 import com.yzh.serviceconsumer.service.Impl.LoginServiceImpl;
@@ -17,6 +18,8 @@ public class ClientController {
     private UserService userService;
     @Autowired
     private LoginServiceImpl loginService;
+
+
 
     @PostMapping("/register")
     public Result<?> register(@RequestBody User user) {

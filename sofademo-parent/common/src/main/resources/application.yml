@@ -1,0 +1,45 @@
+##spring:
+##  application:
+##    name: sofa-demo-provider
+##  datasource:
+##    driver-class-name: com.mysql.cj.jdbc.Driver
+##    url: jdbc:mysql://172.16.31.210:31001/sofaboot?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
+##    username: dev
+##    password: Aa123456
+##    type: com.alibaba.druid.pool.DruidDataSource
+#server:
+#  port: 8081
+#
+#com:
+#  alipay:
+#    sofa:
+#      rpc:
+#        registry-address: nacos://172.16.31.210:31256/public
+#        bolt-port: 12221
+#
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#
+#spring:
+#  application:
+#    name: sofa-demo-provider
+#  # 配置数据源信息
+#  datasource:
+#    dynamic:
+#      # 设置默认的数据源或者数据源组,默认值即为master
+#      primary: master
+#      # 严格匹配数据源,默认false.true未匹配到指定数据源时抛异常,false使用默认数据源
+#      strict: false
+#      datasource:
+#        master:
+#          url: jdbc:mysql://172.16.31.210:31001/sofaboot?characterEncoding=utf-8&useSSL=false
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          username: dev
+#          password: Aa123456
+#        slave_1:
+#          url: jdbc:mysql://172.16.31.210:31001/sofaboot?characterEncoding=utf-8&useSSL=false
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#          username: dev
+#          password: Aa123456
