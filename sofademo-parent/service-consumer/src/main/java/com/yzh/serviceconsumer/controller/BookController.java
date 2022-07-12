@@ -6,10 +6,12 @@ import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.yzh.common.Result;
 import com.yzh.common.Service.BookService;
 import com.yzh.common.entity.Book;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.ws.rs.Path;
 
+@Slf4j
 @RestController
 @RequestMapping("/book")
 public class BookController {
@@ -27,6 +29,7 @@ public class BookController {
         try {
             return Result.success(bookService.insertBook(book));
         }catch (Exception e){
+            e.printStackTrace();
             return Result.error("-1","插入出现错误");
         }
 

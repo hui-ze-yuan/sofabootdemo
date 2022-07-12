@@ -16,6 +16,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * @author hui
+ */
 
 @Component
 @SofaService(interfaceType = BookService.class, uniqueId = "bookService",
@@ -33,6 +36,7 @@ public class BookServiceImpl extends ServiceImpl<BookMapper, Book> implements Bo
     @DS("master")
     @Override
     public int insertBook(Book book) {
+        System.out.println(book);
         return bookMapper.insert(book);
     }
 
