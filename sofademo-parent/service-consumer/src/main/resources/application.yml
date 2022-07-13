@@ -38,3 +38,9 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
           username: dev
           password: Aa123456
+seata:
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+    grouplist:
+      default: 127.0.0.1:8091

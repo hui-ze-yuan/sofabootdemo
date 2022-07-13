@@ -9,9 +9,11 @@ import com.yzh.common.Service.BookService;
 import com.yzh.common.Service.UserService;
 import com.yzh.common.entity.User;
 import com.yzh.serviceconsumer.service.Impl.LoginServiceImpl;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@GlobalTransactional   //开启全局回滚
 @RestController
 public class ClientController {
     @SofaReference(binding = @SofaReferenceBinding(bindingType = "bolt"),uniqueId = "userService")
@@ -49,11 +51,13 @@ public class ClientController {
         }
     }
 
+
     @RequestMapping("/updateUserInfo")
     public Result<?> updateUserInfo(@RequestBody User userParam){
         try{
             System.out.println(userParam.toString());
             userService.UpdateUserInfo(userParam);
+           int  i = 1/0;
             return  Result.success();
         }catch (Exception e){
             e.printStackTrace();

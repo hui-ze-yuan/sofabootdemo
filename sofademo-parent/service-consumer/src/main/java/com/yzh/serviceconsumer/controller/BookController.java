@@ -6,6 +6,7 @@ import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.yzh.common.Result;
 import com.yzh.common.Service.BookService;
 import com.yzh.common.entity.Book;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +18,8 @@ import javax.ws.rs.Path;
 public class BookController {
     @SofaReference(binding = @SofaReferenceBinding(bindingType = "bolt"),uniqueId = "bookService")
     private BookService bookService;
+
+
 
     @GetMapping("/findAll")
     public Result<?> findAllBooks(){

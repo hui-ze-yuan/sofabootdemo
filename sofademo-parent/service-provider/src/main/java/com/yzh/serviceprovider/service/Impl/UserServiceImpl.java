@@ -14,13 +14,14 @@ import com.yzh.serviceprovider.mapper.UserMapper;
 import com.yzh.serviceprovider.utils.Md5Util;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
 
 @Slf4j
 @Component
-
+@Transactional
 @SofaService(interfaceType = UserService.class,uniqueId = "userService",
         bindings = { @SofaServiceBinding(bindingType = "bolt") })
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService   {
