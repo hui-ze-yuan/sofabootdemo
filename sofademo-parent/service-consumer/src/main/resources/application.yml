@@ -1,6 +1,7 @@
+
 server:
   port: 8082
-
+#rpc 协议端口及注册中心地址
 com:
   alipay:
     sofa:
@@ -38,9 +39,10 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
           username: dev
           password: Aa123456
+#seata 配置
 seata:
   service:
     vgroup-mapping:
       default_tx_group: default
     grouplist:
-      default: 127.0.0.1:8091
+      default: 172.18.44.35:8091

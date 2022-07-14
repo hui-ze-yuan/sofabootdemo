@@ -64,9 +64,8 @@ seata:
     vgroup-mapping:
       default_tx_group: default
     grouplist:
-      default: 127.0.0.1:8091
+      default: 172.18.44.35:8091
 
-# seata 配置
 #seata:
 #  # 使用哪个事务组
 #  tx-service-group: my-tx-group

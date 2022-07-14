@@ -21,7 +21,6 @@ import java.util.List;
 
 @Slf4j
 @Component
-@Transactional
 @SofaService(interfaceType = UserService.class,uniqueId = "userService",
         bindings = { @SofaServiceBinding(bindingType = "bolt") })
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService   {

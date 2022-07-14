@@ -26,7 +26,6 @@
     <orderEntry type="library" name="Maven: com.alipay.sofa:bolt:1.5.6" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa.common:sofa-common-tools:1.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.19.0-GA" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.59.Final" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:hessian:3.3.12" level="project" />
     <orderEntry type="library" name="Maven: com.alipay.sofa:tracer-core:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.22.0" level="project" />
@@ -155,7 +154,6 @@
     <orderEntry type="library" name="Maven: com.jayway.jsonpath:json-path:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.assertj:assertj-core:3.16.1" level="project" />
@@ -186,5 +184,29 @@
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-annotation:3.4.3.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:4.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.20" level="project" />
+    <orderEntry type="library" name="Maven: com.baomidou:dynamic-datasource-spring-boot-starter:3.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: io.seata:seata-spring-boot-starter:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: io.seata:seata-spring-autoconfigure-client:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: io.seata:seata-spring-autoconfigure-core:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: io.seata:seata-all:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.59.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4:4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:ST4:4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:61.1" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.69" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe:config:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:4.2" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.8.8" level="project" />
   </component>
 </module>
